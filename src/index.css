@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mrs+Saint+Delafield&family=Orbitron:wght@400..900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' );
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 7rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.t_wrap {
+  padding: 4rem;
+}
+.t_wrap p{
+  color: #6e6e6e;
+}
+img{
+  max-width: 100%;
+}

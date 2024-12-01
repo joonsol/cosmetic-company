@@ -1,0 +1,45 @@
+.Footer{
+    padding:5rem 0 10rem;
+    border-top: .1rem solid #ffa17c;
+    position: relative;
+}
+.Footer .in_wrap{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-company h2 {
+    font-size: 2rem;
+}
+.footer-company p,
+.footer-company address,
+.footer-copyright
+ {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+.footer-company address a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 2rem 0 1rem;
+}
+.footer-social ul{
+    display: flex;
+}
+.footer-social ul img{
+    width: 3rem;
+}
+.l_wrap{
+    max-width: 25%;
+    color: rgb(89, 89, 89);
+}
+.c_wrap{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.c_wrap li{
+    padding: 0 2rem;
+}

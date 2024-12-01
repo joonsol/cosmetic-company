@@ -1,0 +1,16 @@
+button {
+    border: none;
+    display: inline-block;
+    padding: 1rem 4rem;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+button.Bl {
+    background-color: black;
+    color: #fff;
+}
+button.Wh {
+    background-color:#fff;
+    color: #000 !important;
+}

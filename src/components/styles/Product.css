@@ -1,0 +1,33 @@
+.Product{
+    position: relative;
+    padding: 15rem 0;
+}
+.Product::before{
+    position: absolute;
+    display: block;
+    content:"";
+    left: 0;
+    width: 100%;
+    height: calc(50% - 10rem);
+    bottom: 0;
+    background: rgb(226,226,226);
+    background: linear-gradient(0deg, #ffe5db 0%, rgba(226,226,226,0) 50%);
+}
+.Product .splide {
+    height: auto;
+    text-align: center;
+}
+.Product .splide__slide>div{
+    box-shadow: none
+}
+.Product .splide h4 {
+    margin: 2rem 0 .5rem;
+    font-size: 1.8rem ;
+    font-weight: 600;
+    white-space: nowrap; /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;    /* 넘치는 텍스트 숨기기 */
+    text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
+}
+.Product .splide p {
+    font-size: 1.1rem;
+}
